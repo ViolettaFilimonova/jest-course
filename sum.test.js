@@ -7,4 +7,9 @@ describe('exemple test', () => {
       let result = sum(1,2)
       expect(result).toBe(3)
    })
+
+   it('object assignment', () => {
+      const obj = {}
+      expect(obj).toEqual({})
+   })
 })
