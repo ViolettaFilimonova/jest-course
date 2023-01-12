@@ -1,4 +1,3 @@
-
 const sum = require('./sum.js')
 
 describe('exemple test', () => {
@@ -13,3 +12,11 @@ describe('exemple test', () => {
       expect(obj).toEqual({})
    })
 })
+
+describe('null', () => {
+   it('null', () => {
+      const n = 0
+      expect(n).toBeFalsy()
+   })
+})
+
